@@ -110,6 +110,8 @@ const PageLayout = ({ children }) => {
         collapsible
         collapsed={collapsed}
         collapsedWidth={0}
+        breakpoint="xs"
+        onCollapse={setCollapsed}
       >
         <Link to="/">
           <div className="sidebar-header">

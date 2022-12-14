@@ -191,6 +191,7 @@ label {
 .auth-form {
   width: 400px;
   background: #fff;
+  margin: 0 5% 0 5%;
 }
 
 .auth-form i {
