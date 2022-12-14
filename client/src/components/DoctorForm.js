@@ -140,7 +140,7 @@ const DoctorForm = ({ onFinish, initialValues }) => {
         <Col span={8} xs={24} sm={24} lg={8}>
           <Form.Item>
             <Button className="primary-button" htmlType="submit">
-              SUBMIT
+              Send
             </Button>
           </Form.Item>
         </Col>

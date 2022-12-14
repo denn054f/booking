@@ -49,7 +49,7 @@ const UserForm = ({ onFinish, initialValues }) => {
           </Form.Item>
           <Form.Item>
             <Button className="primary-button" htmlType="submit">
-              SUBMIT
+              Opdater
             </Button>
           </Form.Item>
         </Form>
