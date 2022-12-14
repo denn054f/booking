@@ -81,7 +81,7 @@ const DoctorList = () => {
           {record.status === "pending" && (
             <h1
               className="anchor"
-              onClick={() => changeDoctorStatus(record, "Godkendt")}
+              onClick={() => changeDoctorStatus(record, "approved")}
             >
               Godkend
             </h1>

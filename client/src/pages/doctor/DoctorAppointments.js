@@ -92,7 +92,7 @@ const DoctorAppointments = () => {
             <div className="flex">
               <h1
                 className="anchor anchor-actions"
-                onClick={() => changeAppointmentStatus(record, "Godkendt")}
+                onClick={() => changeAppointmentStatus(record, "approved")}
               >
                 Godkend
               </h1>
