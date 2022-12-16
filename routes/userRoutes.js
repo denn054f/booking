@@ -117,7 +117,7 @@ router.post("/update-user-profile", auth, async (req, res) => {
   }
 });
 
-// apply for a docter account
+// apply for a doctor account
 router.post("/doctor-application", auth, async (req, res) => {
   try {
     // create a new Doctor object using the request body and setting the status property to "pending"

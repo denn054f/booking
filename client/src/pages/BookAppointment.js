@@ -74,7 +74,7 @@ const BookAppointment = () => {
         toast.error(response.data.message);
       }
     } catch (error) {
-      toast.error("Error booking appointment");
+      toast.error("Fejl i booking");
       dispatch(hideLoading());
     }
   };
@@ -107,7 +107,7 @@ const BookAppointment = () => {
         navigate("/appointments");
       }
     } catch (error) {
-      toast.error("Error booking appointment");
+      toast.error("Fejl i booking");
       dispatch(hideLoading());
     }
   };

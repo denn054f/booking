@@ -100,7 +100,7 @@ const PageLayout = ({ children }) => {
   }
   // user is a doctor, set the role to "Doctor"
   else if (user && user.isDoctor) {
-    role = "Doctor";
+    role = "Læge";
   }
 
   return (

@@ -65,6 +65,7 @@ const DoctorAppointments = () => {
     {
       title: "Telefon",
       dataIndex: "phoneNumber",
+      className: "hide-on-mobile",
       render: (text, record) => <span>{record.doctorInfo.phoneNumber}</span>,
     },
     {
@@ -85,7 +86,6 @@ const DoctorAppointments = () => {
     {
       title: "Handlinger",
       dataIndex: "actions",
-      className: "hide-on-mobile",
       render: (text, record) => (
         <div className="flex">
           {record.status === "pending" && (
