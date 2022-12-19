@@ -58,6 +58,7 @@ const PageLayout = ({ children }) => {
         styles: {
           position: "absolute",
           bottom: "5%",
+          display: "none",
         },
       },
     ],
